@@ -1,0 +1,30 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true, // Use spaces instead of tabs (set to false to use tabs)
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Optional: Set Prettier as the default formatter
+    "css.lint.unknownAtRules": "ignore",
+    "editor.formatOnSave": true, // Enable auto-formatting on save
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "cSpell.words": [
+        "cloudinary",
+        "daisyui",
+        "doesn",
+        "drmcvrls",
+        "signin",
+        "signout"
+    ],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    }
+}
